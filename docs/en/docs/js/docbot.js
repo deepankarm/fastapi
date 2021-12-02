@@ -7,13 +7,13 @@ $(document).ready(function () {
             is_busy: false,
             is_conn_broken: false,
             general_config: {
-                server_address: 'https://docsbot.jina.ai',
+                server_address: 'https://fastapi-docsbot-stage.jina.ai',
                 search_endpoint: '/search',
-                slack_endpoint: '/slack'
+                slack_endpoint: '/slackk'
             },
             qa_pairs: [],
             cur_question: '',
-            root_url: 'http://docs.jina.ai/'
+            root_url: location.protocol + '//' + location.host + '/'
         },
         computed: {
             host_address: function () {

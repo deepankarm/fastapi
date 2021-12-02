@@ -230,6 +230,7 @@ extra_css:
 - css/termynal.css
 - css/custom.css
 - css/docbot.css
+- css/sd.css
 - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css
 extra_javascript:
 - js/termynal.js

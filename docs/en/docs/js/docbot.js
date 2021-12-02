@@ -9,7 +9,7 @@ $(document).ready(function () {
             general_config: {
                 server_address: 'https://fastapi-docsbot-stage.jina.ai',
                 search_endpoint: '/search',
-                slack_endpoint: '/slackk'
+                slack_endpoint: '/slack'
             },
             qa_pairs: [],
             cur_question: '',
